@@ -240,3 +240,38 @@ button{
   gap: 1em;
   align-items: center;
 }
+
+.cripto_img{
+  width: 500px;
+  height: 400px;
+}
+
+.cripto{
+  background-color: white;
+  background-image: radial-gradient(#e0c329 0.5px, transparent 0.5px), radial-gradient(#e0c329 0.5px, white 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  overflow: hidden;
+}
+
+.cripto_container{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  align-items: center;
+}
+
+.cripto_picture{
+  max-width: 500px;
+}
+
+.cripto_paragraph{
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.cripto_img{
+  width: 250px;
+  display: block;
+  border-radius: 15px;
+
